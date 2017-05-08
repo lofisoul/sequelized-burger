@@ -30,11 +30,11 @@ app.set("view engine", "handlebars");
 // Routes =============================================================
 //this came from stack overflow and is from class examples
 require("./controllers/html-routes.js")(app);
-require("./controllers/html-routes.js")(app);
+require("./controllers/api-routes.js")(app);
 
 //this was on a github repo [ALT VERSION]
 //var htmlRoutes = require("./controllers/html-routes.js")(app);
-//var apiRoutes = require("./controllers/html-routes.js")(app);
+//var apiRoutes = require("./controllers/api-routes.js")(app);
 // app.use('/', htmlRoutes);
 // app.use('/', apiRoutes);
 
